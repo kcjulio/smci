@@ -1,0 +1,3 @@
+INSERT INTO usuarios (idusuario, nome, data_nascimento, rg, cpf, endereco, fone, email, login, senha, perfil) VALUES (1, 'admin', '28/05/1990', '9812385409', '204.551.343-24', 'Rua Marau, 270 - Aurora, Carlos Barbosa', '(54)3461-1932', 'admin@smci.com', 'admin', 'admin', 'admin');
+
+UPDATE sensores SET temperatura = 80, chamas = 1, data_hora = current_timestamp WHERE idcliente = 1 AND idarduino = 1;	-- Simula incêndio
